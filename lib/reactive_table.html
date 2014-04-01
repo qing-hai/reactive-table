@@ -5,7 +5,7 @@
         <div class="input-group col-sm-4 col-sm-offset-8">
           <span class="input-group-addon">
             {{#if useFontAwesome}}
-              <i class="fa fa-filter"></i>
+              <i class="icon-filter"></i>
             {{else}}
               {{i18n 'reactiveTable.filter'}}
             {{/if}}
@@ -27,13 +27,13 @@
                 {{getLabel}}&nbsp;&nbsp;
                 {{#if isAscending ../group}}
                   {{#if ../useFontAwesome}}
-                    <i class="fa fa-sort-asc"></i>
+                    <i class="icon-sort-up"></i>
                   {{else}}
                     &#x25BC;
                   {{/if}}
                 {{else}}
                   {{#if ../useFontAwesome}}
-                    <i class="fa fa-sort-desc"></i>
+                    <i class="icon-sort-down"></i>
                   {{else}}
                     &#x25B2;
                   {{/if}}
